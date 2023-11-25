@@ -1,0 +1,85 @@
+
+/* style.css */
+
+body {
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: darkgray;
+}
+
+
+
+
+
+.main_container {
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 40%;
+}
+
+.header {text-align: -webkit-center;color: white;width: 80%;padding: 20px;border: solid 1px lightgreen;font-size: 21px;font-weight: bold;margin-bottom: 39px;}
+
+.pass_show {font-size: 25px;height: 83px;text-align: -webkit-center;color: black;width: 88%;margin-bottom: 39px;background: #4caf50f7;}
+
+#volume {margin: 0 auto;display: flex;/* text-align: -webkit-center; */width: 80%;align-items: center;background-color: black;color: black;border: none;height: 5px;margin-top: 18px;/* margin-bottom: 6px; */}
+
+
+
+.choices {width: 80%;display: flex;flex-direction: column;align-items: center;}
+
+.pass_length {height: 83px;width: 110%;margin-bottom: 20px;background: #4aaa4d;color: black;font-weight: 600;font-size: 20px;}
+
+.strength_info {
+margin-top: 20px;
+}
+
+#copy-button {
+    background-color: black;
+    color: white;
+    padding: 0px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#copy-button img{
+    
+width: 40px;
+    
+position: absolute;
+    
+margin-left: 217px;
+    
+margin-top: -61px;
+}
+
+#copy-button:hover {
+    background-color: green;
+}
+
+.pass_choose{
+
+width: 110%;
+
+text-align: left;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-content: stretch;
+
+align-items: flex-start;
+
+flex-wrap: wrap;
+}
